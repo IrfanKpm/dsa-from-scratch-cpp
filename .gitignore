@@ -1,0 +1,9 @@
+# Executables
+*.exe
+
+# Object files
+*.o
+*.obj
+
+# Compiled output (Linux/Mac)
+a.out
