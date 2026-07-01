@@ -41,6 +41,16 @@ int main(){
     cout << "a        -->  " << a << " (" << bitset<8>(a) << ")" << endl;
     cout << "~a       --> " << ~a << " (" << bitset<8>(~a) << ")" << endl;
 
+    cout << "\nLEFT SHIFT(<<) OPERATION" << endl;
+    int n = 13;
+    cout << "n          --> " << n << " (" << bitset<8>(n) << ")" << endl;
+    cout << "n << 2     --> " << (n << 2) << " (" << bitset<8>(n << 2) << ")" << endl;
+    cout << "n << 1     --> " << (n << 1) << " (" << bitset<8>(n << 1) << ")" << endl;
+
+    cout << "\nRIGHT SHIFT(>>) OPERATION" << endl;
+    cout << "n          --> " << n << " (" << bitset<8>(n) << ")" << endl;
+    cout << "n >> 1     -->  " << (n >> 1) << " (" << bitset<8>(n >> 1) << ")" << endl;
+    cout << "n >> 2     -->  " << (n >> 2) << " (" << bitset<8>(n >> 2) << ")" << endl;
 
     return 0;
 }
