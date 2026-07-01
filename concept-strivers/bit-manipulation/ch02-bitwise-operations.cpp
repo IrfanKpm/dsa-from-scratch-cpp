@@ -36,6 +36,11 @@ int main(){
     cout << "3 ^ 1      --> " << bitset<8>(3 ^ 1) << endl; 
     cout << "3 ^ 3      --> " << bitset<8>(3 ^ 3) << endl; 
 
+    cout << "\nNOT(~) OPERATION" << endl;
+    int a = 13;
+    cout << "a        -->  " << a << " (" << bitset<8>(a) << ")" << endl;
+    cout << "~a       --> " << ~a << " (" << bitset<8>(~a) << ")" << endl;
+
 
     return 0;
 }
