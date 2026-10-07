@@ -1,234 +1,168 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DSA Implementation Problems - Checklist</title>
+# DSA Implementation Problems
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 900px;
-            margin: 30px auto;
-            padding: 0 20px;
-        }
+## Arrays
 
-        h1 {
-            text-align: center;
-        }
+1. [x] Implement an array with declaration and initialization.
+2. [x] Implement array traversal.
+3. [x] Implement insertion into an array at a given position.
+4. [x] Implement deletion from an array at a given position.
+5. [x] Implement a 2D array and perform basic operations.
+6. [x] Access and manipulate a 2D array using pointers.
 
-        h2 {
-            margin-top: 30px;
-            border-bottom: 1px solid #ccc;
-            padding-bottom: 5px;
-        }
+## Linked Lists
 
-        ol {
-            padding-left: 30px;
-        }
+7. [ ] Implement a singly linked list with node creation and display.
+8. [ ] Implement insertion in a singly linked list at beginning, end, and specified position.
+9. [ ] Implement deletion from a singly linked list from beginning, end, and specified position.
+10. [ ] Find the length of a singly linked list iteratively.
+11. [ ] Reverse a singly linked list iteratively.
+12. [ ] Implement a doubly linked list.
+13. [ ] Implement insertion in a doubly linked list at beginning, end, and specified position.
+14. [ ] Implement deletion from a doubly linked list from beginning, end, and specified position.
+15. [ ] Reverse a doubly linked list.
+16. [ ] Implement a circular singly linked list.
+17. [ ] Implement insertion in a circular linked list.
+18. [ ] Implement deletion from a circular linked list from beginning, end, and specified position.
+19. [ ] Reverse a circular linked list.
+20. [ ] Implement a doubly circular linked list.
+21. [ ] Implement insertion in a doubly circular linked list.
+22. [ ] Implement deletion from a doubly circular linked list.
 
-        li {
-            margin: 8px 0;
-        }
+## Stacks
 
-        label {
-            cursor: pointer;
-        }
+23. [ ] Implement a stack using an array with push, pop, and peek.
+24. [ ] Implement a stack using a linked list.
+25. [ ] Implement infix-to-postfix conversion using a stack.
+26. [ ] Implement infix-to-prefix conversion using a stack.
+27. [ ] Evaluate a postfix expression using a stack.
+28. [ ] Evaluate a prefix expression using a stack.
+29. [ ] Convert prefix to infix using a stack.
+30. [ ] Convert postfix to infix using a stack.
+31. [ ] Implement an expression tree.
+32. [ ] Construct an expression tree from a postfix expression.
 
-        input[type="checkbox"] {
-            margin-right: 8px;
-        }
-    </style>
-</head>
+## Queues
 
-<body>
+33. [ ] Implement a queue using an array.
+34. [ ] Implement a queue using a linked list.
+35. [ ] Implement a circular queue using an array.
+36. [ ] Implement a circular queue using a linked list.
+37. [ ] Implement a queue using two stacks.
+38. [ ] Implement a deque using a circular array.
 
-    <h1>DSA Implementation Problems</h1>
+## Binary Trees
 
-    <h2>Arrays</h2>
-    <ol>
-        <li><label><input type="checkbox" checked>Implement an array with declaration and initialization.</label></li>
-        <li><label><input type="checkbox" checked>Implement array traversal.</label></li>
-        <li><label><input type="checkbox" checked>Implement insertion into an array at a given position.</label></li>
-        <li><label><input type="checkbox" checked>Implement deletion from an array at a given position.</label></li>
-        <li><label><input type="checkbox" checked>Implement a 2D array and perform basic operations.</label></li>
-        <li><label><input type="checkbox" checked>Access and manipulate a 2D array using pointers.</label></li>
-    </ol>
+39. [ ] Implement a binary tree.
+40. [ ] Implement binary tree representation using an array.
+41. [ ] Implement inorder traversal of a binary tree.
+42. [ ] Implement preorder traversal of a binary tree.
+43. [ ] Implement postorder traversal of a binary tree.
+44. [ ] Construct a binary tree from preorder and inorder traversals.
+45. [ ] Construct a binary tree from postorder and inorder traversals.
+46. [ ] Construct a binary tree from preorder and postorder traversals.
 
-    <h2>Linked Lists</h2>
-    <ol start="7">
-        <li><label><input type="checkbox">Implement a singly linked list with node creation and display.</label></li>
-        <li><label><input type="checkbox">Implement insertion in a singly linked list at beginning, end, and specified position.</label></li>
-        <li><label><input type="checkbox">Implement deletion from a singly linked list from beginning, end, and specified position.</label></li>
-        <li><label><input type="checkbox">Find the length of a singly linked list iteratively.</label></li>
-        <li><label><input type="checkbox">Reverse a singly linked list iteratively.</label></li>
-        <li><label><input type="checkbox">Implement a doubly linked list.</label></li>
-        <li><label><input type="checkbox">Implement insertion in a doubly linked list at beginning, end, and specified position.</label></li>
-        <li><label><input type="checkbox">Implement deletion from a doubly linked list from beginning, end, and specified position.</label></li>
-        <li><label><input type="checkbox">Reverse a doubly linked list.</label></li>
-        <li><label><input type="checkbox">Implement a circular singly linked list.</label></li>
-        <li><label><input type="checkbox">Implement insertion in a circular linked list.</label></li>
-        <li><label><input type="checkbox">Implement deletion from a circular linked list from beginning, end, and specified position.</label></li>
-        <li><label><input type="checkbox">Reverse a circular linked list.</label></li>
-        <li><label><input type="checkbox">Implement a doubly circular linked list.</label></li>
-        <li><label><input type="checkbox">Implement insertion in a doubly circular linked list.</label></li>
-        <li><label><input type="checkbox">Implement deletion from a doubly circular linked list.</label></li>
-    </ol>
+## Binary Search Trees
 
-    <h2>Stacks</h2>
-    <ol start="23">
-        <li><label><input type="checkbox">Implement a stack using an array with push, pop, and peek.</label></li>
-        <li><label><input type="checkbox">Implement a stack using a linked list.</label></li>
-        <li><label><input type="checkbox">Implement infix-to-postfix conversion using a stack.</label></li>
-        <li><label><input type="checkbox">Implement infix-to-prefix conversion using a stack.</label></li>
-        <li><label><input type="checkbox">Evaluate a postfix expression using a stack.</label></li>
-        <li><label><input type="checkbox">Evaluate a prefix expression using a stack.</label></li>
-        <li><label><input type="checkbox">Convert prefix to infix using a stack.</label></li>
-        <li><label><input type="checkbox">Convert postfix to infix using a stack.</label></li>
-        <li><label><input type="checkbox">Implement an expression tree.</label></li>
-        <li><label><input type="checkbox">Construct an expression tree from a postfix expression.</label></li>
-    </ol>
+47. [ ] Implement a Binary Search Tree (BST).
+48. [ ] Implement insertion in a BST.
+49. [ ] Implement deletion in a BST.
+50. [ ] Construct a BST from a preorder traversal.
+51. [ ] Construct a BST from a postorder traversal.
 
-    <h2>Queues</h2>
-    <ol start="33">
-        <li><label><input type="checkbox">Implement a queue using an array.</label></li>
-        <li><label><input type="checkbox">Implement a queue using a linked list.</label></li>
-        <li><label><input type="checkbox">Implement a circular queue using an array.</label></li>
-        <li><label><input type="checkbox">Implement a circular queue using a linked list.</label></li>
-        <li><label><input type="checkbox">Implement a queue using two stacks.</label></li>
-        <li><label><input type="checkbox">Implement a deque using a circular array.</label></li>
-    </ol>
+## AVL Trees
 
-    <h2>Binary Trees</h2>
-    <ol start="39">
-        <li><label><input type="checkbox">Implement a binary tree.</label></li>
-        <li><label><input type="checkbox">Implement binary tree representation using an array.</label></li>
-        <li><label><input type="checkbox">Implement inorder traversal of a binary tree.</label></li>
-        <li><label><input type="checkbox">Implement preorder traversal of a binary tree.</label></li>
-        <li><label><input type="checkbox">Implement postorder traversal of a binary tree.</label></li>
-        <li><label><input type="checkbox">Construct a binary tree from preorder and inorder traversals.</label></li>
-        <li><label><input type="checkbox">Construct a binary tree from postorder and inorder traversals.</label></li>
-        <li><label><input type="checkbox">Construct a binary tree from preorder and postorder traversals.</label></li>
-    </ol>
+52. [ ] Implement an AVL tree.
+53. [ ] Implement AVL insertion with LL, RR, LR, and RL rotations.
+54. [ ] Implement AVL deletion with rebalancing.
 
-    <h2>Binary Search Trees</h2>
-    <ol start="47">
-        <li><label><input type="checkbox">Implement a Binary Search Tree (BST).</label></li>
-        <li><label><input type="checkbox">Implement insertion in a BST.</label></li>
-        <li><label><input type="checkbox">Implement deletion in a BST.</label></li>
-        <li><label><input type="checkbox">Construct a BST from a preorder traversal.</label></li>
-        <li><label><input type="checkbox">Construct a BST from a postorder traversal.</label></li>
-    </ol>
+## Red-Black Trees
 
-    <h2>AVL Trees</h2>
-    <ol start="52">
-        <li><label><input type="checkbox">Implement an AVL tree.</label></li>
-        <li><label><input type="checkbox">Implement AVL insertion with LL, RR, LR, and RL rotations.</label></li>
-        <li><label><input type="checkbox">Implement AVL deletion with rebalancing.</label></li>
-    </ol>
+55. [ ] Implement a Red-Black Tree.
+56. [ ] Implement insertion in a Red-Black Tree with rotations and recoloring.
+57. [ ] Implement deletion in a Red-Black Tree with rebalancing.
 
-    <h2>Red-Black Trees</h2>
-    <ol start="55">
-        <li><label><input type="checkbox">Implement a Red-Black Tree.</label></li>
-        <li><label><input type="checkbox">Implement insertion in a Red-Black Tree with rotations and recoloring.</label></li>
-        <li><label><input type="checkbox">Implement deletion in a Red-Black Tree with rebalancing.</label></li>
-    </ol>
+## Splay Trees
 
-    <h2>Splay Trees</h2>
-    <ol start="58">
-        <li><label><input type="checkbox">Implement a Splay Tree.</label></li>
-        <li><label><input type="checkbox">Implement insertion in a Splay Tree using bottom-up splaying.</label></li>
-        <li><label><input type="checkbox">Implement deletion in a Splay Tree using bottom-up splaying.</label></li>
-        <li><label><input type="checkbox">Implement deletion in a Splay Tree using top-down splaying.</label></li>
-    </ol>
+58. [ ] Implement a Splay Tree.
+59. [ ] Implement insertion in a Splay Tree using bottom-up splaying.
+60. [ ] Implement deletion in a Splay Tree using bottom-up splaying.
+61. [ ] Implement deletion in a Splay Tree using top-down splaying.
 
-    <h2>B-Trees</h2>
-    <ol start="62">
-        <li><label><input type="checkbox">Implement a B-Tree.</label></li>
-        <li><label><input type="checkbox">Implement insertion in a B-Tree of order 3.</label></li>
-        <li><label><input type="checkbox">Implement insertion in a B-Tree of order 4.</label></li>
-        <li><label><input type="checkbox">Implement insertion in a B-Tree of order 5.</label></li>
-        <li><label><input type="checkbox">Implement B-Tree deletion with node merging and borrowing.</label></li>
-    </ol>
+## B-Trees
 
-    <h2>B+ Trees</h2>
-    <ol start="67">
-        <li><label><input type="checkbox">Implement insertion in a B+ Tree.</label></li>
-        <li><label><input type="checkbox">Implement deletion in a B+ Tree.</label></li>
-        <li><label><input type="checkbox">Construct a B+ Tree of order 5.</label></li>
-    </ol>
+62. [ ] Implement a B-Tree.
+63. [ ] Implement insertion in a B-Tree of order 3.
+64. [ ] Implement insertion in a B-Tree of order 4.
+65. [ ] Implement insertion in a B-Tree of order 5.
+66. [ ] Implement B-Tree deletion with node merging and borrowing.
 
-    <h2>Graphs</h2>
-    <ol start="70">
-        <li><label><input type="checkbox">Implement graph representation using an adjacency matrix.</label></li>
-        <li><label><input type="checkbox">Implement graph representation using an adjacency list.</label></li>
-        <li><label><input type="checkbox">Implement Breadth-First Search (BFS).</label></li>
-        <li><label><input type="checkbox">Implement Depth-First Search (DFS).</label></li>
-        <li><label><input type="checkbox">Implement DFS edge classification.</label></li>
-        <li><label><input type="checkbox">Implement Prim's algorithm for Minimum Spanning Tree.</label></li>
-        <li><label><input type="checkbox">Implement Kruskal's algorithm for Minimum Spanning Tree.</label></li>
-        <li><label><input type="checkbox">Detect a cycle in a directed graph.</label></li>
-        <li><label><input type="checkbox">Detect a cycle in an undirected graph.</label></li>
-        <li><label><input type="checkbox">Implement topological sorting of a directed graph.</label></li>
-        <li><label><input type="checkbox">Find all connected components of an undirected graph.</label></li>
-        <li><label><input type="checkbox">Find all bridges/cut edges in a graph.</label></li>
-        <li><label><input type="checkbox">Implement Dijkstra's shortest-path algorithm.</label></li>
-        <li><label><input type="checkbox">Implement the Bellman-Ford shortest-path algorithm.</label></li>
-        <li><label><input type="checkbox">Implement the Floyd-Warshall all-pairs shortest-path algorithm.</label></li>
-    </ol>
+## B+ Trees
 
-    <h2>Searching</h2>
-    <ol start="85">
-        <li><label><input type="checkbox">Implement linear search.</label></li>
-        <li><label><input type="checkbox">Implement binary search on a sorted array.</label></li>
-    </ol>
+67. [ ] Implement insertion in a B+ Tree.
+68. [ ] Implement deletion in a B+ Tree.
+69. [ ] Construct a B+ Tree of order 5.
 
-    <h2>Sorting</h2>
-    <ol start="87">
-        <li><label><input type="checkbox">Implement Bubble Sort.</label></li>
-        <li><label><input type="checkbox">Implement Insertion Sort.</label></li>
-        <li><label><input type="checkbox">Implement Selection Sort.</label></li>
-        <li><label><input type="checkbox">Implement Quick Sort.</label></li>
-        <li><label><input type="checkbox">Implement Merge Sort.</label></li>
-        <li><label><input type="checkbox">Implement a Max Heap with insertion and deletion.</label></li>
-        <li><label><input type="checkbox">Implement Heap Sort using heapify.</label></li>
-        <li><label><input type="checkbox">Implement Shell Sort.</label></li>
-        <li><label><input type="checkbox">Implement Counting Sort.</label></li>
-        <li><label><input type="checkbox">Implement Radix Sort.</label></li>
-    </ol>
+## Graphs
 
-    <h2>Hashing</h2>
-    <ol start="97">
-        <li><label><input type="checkbox">Implement a hash table using separate chaining.</label></li>
-        <li><label><input type="checkbox">Implement a hash table using linear probing.</label></li>
-        <li><label><input type="checkbox">Implement a hash table using quadratic probing.</label></li>
-        <li><label><input type="checkbox">Implement a hash table using double hashing.</label></li>
-    </ol>
+70. [ ] Implement graph representation using an adjacency matrix.
+71. [ ] Implement graph representation using an adjacency list.
+72. [ ] Implement Breadth-First Search (BFS).
+73. [ ] Implement Depth-First Search (DFS).
+74. [ ] Implement DFS edge classification.
+75. [ ] Implement Prim's algorithm for Minimum Spanning Tree.
+76. [ ] Implement Kruskal's algorithm for Minimum Spanning Tree.
+77. [ ] Detect a cycle in a directed graph.
+78. [ ] Detect a cycle in an undirected graph.
+79. [ ] Implement topological sorting of a directed graph.
+80. [ ] Find all connected components of an undirected graph.
+81. [ ] Find all bridges/cut edges in a graph.
+82. [ ] Implement Dijkstra's shortest-path algorithm.
+83. [ ] Implement the Bellman-Ford shortest-path algorithm.
+84. [ ] Implement the Floyd-Warshall all-pairs shortest-path algorithm.
 
-    <h2>Greedy Algorithms</h2>
-    <ol start="101">
-        <li><label><input type="checkbox">Implement Huffman Coding using a greedy approach.</label></li>
-        <li><label><input type="checkbox">Implement Huffman Coding when character probabilities or frequencies are given.</label></li>
-    </ol>
+## Searching
 
-    <h2>Dynamic Programming</h2>
-    <ol start="103">
-        <li><label><input type="checkbox">Implement Fibonacci using recursion with memoization.</label></li>
-        <li><label><input type="checkbox">Implement Fibonacci using tabulation.</label></li>
-        <li><label><input type="checkbox">Implement Fibonacci using space optimization.</label></li>
-        <li><label><input type="checkbox">Solve Climbing Stairs using recursion.</label></li>
-        <li><label><input type="checkbox">Solve Climbing Stairs using memoization.</label></li>
-        <li><label><input type="checkbox">Solve Climbing Stairs using tabulation.</label></li>
-        <li><label><input type="checkbox">Solve Climbing Stairs using space optimization.</label></li>
-        <li><label><input type="checkbox">Solve Min Cost Climbing Stairs using recursion.</label></li>
-        <li><label><input type="checkbox">Solve Min Cost Climbing Stairs using memoization.</label></li>
-        <li><label><input type="checkbox">Solve Min Cost Climbing Stairs using tabulation.</label></li>
-        <li><label><input type="checkbox">Solve Min Cost Climbing Stairs using space optimization.</label></li>
-        <li><label><input type="checkbox">Implement different approaches to distinguish recursion from dynamic programming.</label></li>
-        <li><label><input type="checkbox">Implement the 0/1 Knapsack problem using dynamic programming.</label></li>
-        <li><label><input type="checkbox">Implement the Unbounded Knapsack problem using dynamic programming.</label></li>
-    </ol>
+85. [ ] Implement linear search.
+86. [ ] Implement binary search on a sorted array.
 
-</body>
-</html>
+## Sorting
+
+87. [ ] Implement Bubble Sort.
+88. [ ] Implement Insertion Sort.
+89. [ ] Implement Selection Sort.
+90. [ ] Implement Quick Sort.
+91. [ ] Implement Merge Sort.
+92. [ ] Implement a Max Heap with insertion and deletion.
+93. [ ] Implement Heap Sort using heapify.
+94. [ ] Implement Shell Sort.
+95. [ ] Implement Counting Sort.
+96. [ ] Implement Radix Sort.
+
+## Hashing
+
+97. [ ] Implement a hash table using separate chaining.
+98. [ ] Implement a hash table using linear probing.
+99. [ ] Implement a hash table using quadratic probing.
+100. [ ] Implement a hash table using double hashing.
+
+## Greedy Algorithms
+
+101. [ ] Implement Huffman Coding using a greedy approach.
+102. [ ] Implement Huffman Coding when character probabilities or frequencies are given.
+
+## Dynamic Programming
+
+103. [ ] Implement Fibonacci using recursion with memoization.
+104. [ ] Implement Fibonacci using tabulation.
+105. [ ] Implement Fibonacci using space optimization.
+106. [ ] Solve Climbing Stairs using recursion.
+107. [ ] Solve Climbing Stairs using memoization.
+108. [ ] Solve Climbing Stairs using tabulation.
+109. [ ] Solve Climbing Stairs using space optimization.
+110. [ ] Solve Min Cost Climbing Stairs using recursion.
+111. [ ] Solve Min Cost Climbing Stairs using memoization.
+112. [ ] Solve Min Cost Climbing Stairs using tabulation.
+113. [ ] Solve Min Cost Climbing Stairs using space optimization.
+114. [ ] Implement different approaches to distinguish recursion from dynamic programming.
+115. [ ] Implement the 0/1 Knapsack problem using dynamic programming.
+116. [ ] Implement the Unbounded Knapsack problem using dynamic programming.
