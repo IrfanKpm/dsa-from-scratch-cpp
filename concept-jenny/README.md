@@ -11,7 +11,7 @@
 
 ## Linked Lists
 
-7. [ ] Implement a singly linked list with node creation and display.
+7. [x] Implement a singly linked list with node creation and display.
 8. [ ] Implement insertion in a singly linked list at beginning, end, and specified position.
 9. [ ] Implement deletion from a singly linked list from beginning, end, and specified position.
 10. [ ] Find the length of a singly linked list iteratively.
